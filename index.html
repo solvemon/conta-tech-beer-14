@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tech Beer #14 - Conta</title>
+    <meta name="description" content="A presentation with gradient text styles">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/black.css" id="theme">
+
+    <style>
+        /* Custom gradient background */
+        .reveal {
+            background: linear-gradient(135deg, #2c2c2c, #1e1e1e, #141414);
+        }
+
+
+        .green {
+            font-family: 'Arial Black', Arial, sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            text-align: center;
+            margin: 20px 0;
+            letter-spacing: 2px;
+            background: linear-gradient(45deg, #4a9960, #5cb370, #6bcc7a, #7dd687);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .red {
+            font-family: 'Arial Black', Arial, sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            text-align: center;
+            margin: 20px 0;
+            letter-spacing: 2px;
+            background-clip: text;
+            background: linear-gradient(45deg, #c65454, #d4693b, #cc5533, #d17a47);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Footer styling */
+        .footer-logo {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-logo:hover {
+            opacity: 1;
+        }
+
+        .footer-logo img {
+            height: 40px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>One Team <br/> 12 bosses</h1>
+            <span class="red">Anarchy</span> or <span
+                class="green">autonomy</span>?
+            <aside class="notes">
+                Welcome to our presentation about team dynamics. We'll explore the balance between structure and freedom in software development teams.
+            </aside>
+        </section>
+
+        <section>
+            <section>
+                <img class="green" src="img/conta-logo-dark.svg" alt="conta logo" width="300">
+                <div class="fragment">Financial software</div>
+                <div class="fragment">(mostly) located in Fremmerholen, Ålesund</div>
+                <aside class="notes">Committed to building a local tech center in Ålesund</aside>
+            </section>
+            <section>
+                <img src="img/pracsys-2025.png" alt="the team" style="background-size: contain"/>
+            </section>
+            <section>
+                <div>A team tasked with building a
+                    <div class="green">new professional accounting system</div>
+                </div>
+            </section>
+            <section>
+                <div><span class="green">How</span> do we build an accounting system?</div>
+                <div class="fragment"><span class="green">What</span> should it do?</div>
+                <div class="fragment"><span class="green">How</span> does it work?</div>
+                <div class="fragment"><span class="green">Who</span> is it for?</div>
+            </section>
+            <section>
+                <img alt="jt" src="img/jt.png" style="background-size: cover">
+                <img alt="trollface" class="fragment" src="img/troll.png"
+                     style="position: absolute; top: 80px; left: 340px; width: 300px;">
+            </section>
+        </section>
+
+        <section>
+            <div class="green">Autonomy</div>
+            <aside class="notes">
+                This section discusses autonomy in software development teams. Key points: empowerment, trust, and self-organization.
+            </aside>
+            <section>
+            </section>
+            <section>
+                <div>Ear medicine in the butt</div>
+            </section>
+            <section>
+                <h2>Developers as Code Monkeys?</h2>
+                <h3>Like AI: must be told precisely</h3>
+            </section>
+
+
+            <section>
+                <h2>Pair & Mob Programming</h2>
+                <h3>Collaboration by design</h3>
+            </section>
+            <section>
+                <h2>Fast Feedback</h2>
+                <h3>Idea → Fix → Deploy in 30 min</h3>
+            </section>
+        </section>
+
+
+        <section>
+            <div class="red">Anarchy</div>
+            <section>
+                <h2>No Nannies</h2>
+                <h3>Autonomy vs. micromanagement</h3>
+            </section>
+            <section>
+                <h2>Direct to Production</h2>
+                <h3>High trust, short cycles</h3>
+            </section>
+
+        </section>
+
+        <section>
+            <h2>Beyond Coders</h2>
+            <h3>UX, QA, PM, PO perspectives</h3>
+        </section>
+
+        <section>
+            <h2>Growth Together</h2>
+            <h3>Better devs, better people</h3>
+        </section>
+
+        <section>
+            <h2>Total Recall Moment</h2>
+            <h3>Freeing each other’s minds</h3>
+        </section>
+
+        <section>
+            <h2>Creative Wins</h2>
+            <h3>Borrowing ideas from IDEs</h3>
+        </section>
+
+        <section>
+            <h2>Rapid Experimentation</h2>
+            <h3>Test, roll out, reject fast</h3>
+        </section>
+
+        <section>
+            <h2>It’s Not Just the Team</h2>
+            <h3>Org must also be agile & playful</h3>
+        </section>
+
+
+    </div>
+
+    <!-- Footer with company logo -->
+    <div class="footer-logo">
+        <img src="img/conta-logo-dark.svg" alt="Conta Logo">
+    </div>
+</div>
+
+<script src="node_modules/reveal.js/dist/reveal.js"></script>
+<script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+<script>
+    Reveal.initialize({
+        hash: true,
+        controls: true,
+        progress: true,
+        center: true,
+        transition: 'slide',
+        plugins: [ RevealNotes ]
+    });
+</script>
+</body>
+</html>
