@@ -1,0 +1,9 @@
+image: 'node:latest'
+
+pages:
+  script:
+    - yarn
+    - yarn build
+  artifacts:
+    paths:
+      - public
