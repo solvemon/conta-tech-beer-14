@@ -1,0 +1,58 @@
+@import 'reveal.js/dist/reveal.css';
+@import 'reveal.js/dist/theme/black.css';
+@import 'reveal.js/dist/reset.css';
+
+/* Custom gradient background */
+.reveal {
+    background: linear-gradient(135deg, #2c2c2c, #1e1e1e, #141414);
+}
+
+h1, h2, h3 {
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+
+.green {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #4a9960, #5cb370, #6bcc7a, #7dd687);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.red {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    background-clip: text;
+    background: linear-gradient(45deg, #c65454, #d4693b, #cc5533, #d17a47);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Footer styling */
+.footer-logo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.footer-logo:hover {
+    opacity: 1;
+}
+
+.footer-logo img {
+    height: 50px;
+    width: auto;
+}
